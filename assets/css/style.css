@@ -242,6 +242,10 @@ img.left {
     font-family: sans_fransico;
     src:url('../css/font/SF-Pro-Display-Medium.woff')
     format('woff');
+    src:url('../css/font/SF-Pro-Display-Medium.otf')
+    format('OpenType');
+    src:url('../css/font/SF-Pro-Display-Medium.ttf')
+    format(TrueType);
     font-style: normal;
 }
     
