@@ -240,7 +240,7 @@ img.left {
 
 @font-face {
     font-family: sans_fransico;
-    src:url('../font/SF-Pro-Display-Medium.woff')
+    src:url('../css/font/SF-Pro-Display-Medium.woff')
     format('woff');
     font-style: normal;
 }
