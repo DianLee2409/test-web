@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 .section {
     display: flex;
     flex-direction: column;
@@ -12,8 +16,6 @@
     margin-right: auto;
     font-family: 'Be Vietnam Pro';
 }
-
-
 
 @media only screen and (max-width: 425px) {
     .section {
@@ -156,6 +158,7 @@ img.left {
 .contact-information .zalo:hover,
 .contact-information .linkedin:hover {
     transform:scale(1.05);
+    cursor: pointer;
 }
 
 .phone-number img,
@@ -179,6 +182,7 @@ img.left {
 
 .content-left .btn-contact:hover {
     transform: scale(1.05);
+    cursor: pointer;
 }
 
 .btn-contact a {
