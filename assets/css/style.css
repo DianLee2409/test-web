@@ -236,18 +236,26 @@ img.left {
     margin-top: -212%;
     margin-left: -3%;
     width: 450px;
-}    
+}
+
+@font-face {
+    font-family: sans_fransico;
+    src:url('../css/font/SF-Pro-Display-Medium.woff')
+    format('woff');
+    font-style: normal;
+}
     
 .section2-content-overal {    
     background-color: #faf8f8f3;
-    width: 1000px;
-    margin-left: 75px;
+    width: 1050px;
+    margin-left: 50px;
     margin-bottom: 30px;
     border-bottom: 7px solid red;
     border-radius: 4px;
     margin-top: -85px;
     padding: 0 30px;
     z-index: 1;
+    font-family: sans_fransico;
 }
 
 
@@ -275,7 +283,7 @@ img.left {
     width: 260px;
     float: left;
     margin-right: 40px;
-    margin-bottom: 30px;
+    margin-bottom: 60px;
 }
 
 .content-text {
@@ -285,16 +293,17 @@ img.left {
 .content-text .text-header {
     padding-top: 30px;
     padding-bottom: 20px;
+    font-size: 25px;
 }
 
 .content-text .content-mid {
     padding-bottom: 25px;
-    font-size: 17px;
+    font-size: 21.5px;
 }
 
 .content-text .content-footer {
     padding-bottom: 25px;
-    font-size: 17px;
+    font-size: 20px;
     color: #494747;
 }
 
