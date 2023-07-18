@@ -345,28 +345,11 @@ img.left {
     text-decoration: none;
 }
 
-.section3 .list-upper {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    margin-bottom: 10px;
-}
-
-.section3 .box1 {
-    width: 140%;
-    height: 150px;
-    border-radius: 8px;
-    border: none;
-    background-image: linear-gradient(0, rgba(0, 0, 255, 0.5), rgba(0, 0, 255, 0.5)), 
-                      url(./img/imagine11.webp);
-    background-size: 100% 200px;
-    background-repeat: no-repeat;
-    align-self: flex-start;
-}
-
-.section3 .box1:hover {
-    background-image: linear-gradient(0, rgba(223, 12, 12, 0.667), rgba(223, 12, 12, 0.667)), 
-                      url(./img/imagine11.webp);
+.list-upper .box-upper {
+    float: left;
+    width: 49%;
+    margin: 0 0.5%;
+    height: 160px;
 }
 
 .section3 .box-text {
@@ -374,13 +357,14 @@ img.left {
     padding-left: 30px;
     text-align: left;
     padding-top: 1px;
+    padding-right: 20px;
 }
 
 .section3 .box-header {
     margin-bottom: 30px;
     font-weight: bold;
     font-size: 15px;
-    margin-top: 15px;
+    margin-top: 10px;
 }
 
 .section3 .box-content {
@@ -388,9 +372,20 @@ img.left {
     font-size: 30px;
 }
 
+.section3 .box1 {
+    border-radius: 8px;
+    border: none;
+    background-image: linear-gradient(0, rgba(0, 0, 255, 0.5), rgba(0, 0, 255, 0.5)), 
+                      url(./img/imagine11.webp);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.section3 .box1:hover {
+    background-image: linear-gradient(0, rgba(223, 12, 12, 0.667), rgba(223, 12, 12, 0.667)), 
+                      url(./img/imagine11.webp);
+}
 .section3 .box2 {
-    width: 140%;
-    height: 150px;
     border-radius: 8px;
     border: none;
     background-image: linear-gradient(0, rgba(0, 0, 255, 0.5), rgba(0, 0, 255, 0.5)), 
@@ -398,7 +393,6 @@ img.left {
     background-size: 100% 200px;
     background-repeat: no-repeat;
     background-color: rgba(0, 0, 255, 0.221);
-    align-self: flex-end;
 }
 
 .section3 .box2:hover {
@@ -406,17 +400,14 @@ img.left {
                       url(./img/imagine12.webp);
 }
 
-.section3 .list-under {
-    display: flex;
-    flex-direction: row;
-    margin-bottom: 40px;
+.list-under .box-under {
+    float: left;
+    width: 32.3%;
+    height: 160px;
+    margin: 20px 0.5%;
 }
 
 .section3 .box3 {
-    width: 390px;
-    flex: 1 1 0px;
-    margin-right: 16px;
-    height: 150px;
     border-radius: 8px;
     border: none;
     background-image: linear-gradient(0, rgba(34, 34, 191, 0.5), rgba(34, 34, 191, 0.5)), 
@@ -430,12 +421,7 @@ img.left {
     background-image: linear-gradient(0, rgba(223, 12, 12, 0.667), rgba(223, 12, 12, 0.667)), 
                       url(./img/imagine15.webp);
 }
-
 .section3 .box4 {
-    width: 390px;
-    flex: 1 1 0px;
-    height: 150px;
-    margin-right: 16px;
     border-radius: 8px;
     border: none;
     background-image: linear-gradient(0, rgba(34, 34, 191, 0.5), rgba(34, 34, 191, 0.5)), 
@@ -451,9 +437,6 @@ img.left {
 }
 
 .section3 .box5 {
-    width: 390px;
-    flex: 1 1 0px;
-    height: 150px;
     border-radius: 8px;
     border: none;
     background-image: linear-gradient(0, rgba(34, 34, 191, 0.5), rgba(34, 34, 191, 0.5)), 
